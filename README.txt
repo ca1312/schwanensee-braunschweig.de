@@ -1,13 +1,17 @@
-SCHWANENSEE – ZUFÄLLIGE SEITENAUSWAHL
+SCHWANENSEE – EINZIGE INDEX.HTML
 
-Inhalt:
-- index.html                  = gemeinsamer Einstieg
-- version-easter-egg/         = Variante mit Easter Egg
-- version-textupdate/        = Variante ohne Easter Egg
+Diese Version verwendet nur eine einzige index.html.
+Bei jedem vollständigen Seitenaufruf entscheidet JavaScript zufällig,
+ob das Easter Egg angezeigt wird.
 
-Beim Aufruf der Domain wählt index.html zufällig eine der beiden Varianten.
-Es wird bei jedem neuen Aufruf neu gewürfelt.
+Die URL bleibt immer:
+https://schwanensee-braunschweig.de/
 
-UPLOAD:
-Den kompletten Inhalt dieses Ordners in das Webroot/Document Root deiner Domain hochladen.
-Die Datei index.html muss direkt im Webroot liegen.
+Dateien:
+- index.html
+- style.css
+- logo.png
+- easter-egg.png
+
+GitHub:
+Diese vier Dateien direkt ins Repository legen. Die vorhandene CNAME bleibt bestehen.
