@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090708">
+  <title>Schwanensee · Braunschweig</title>
+  <script>
+    // Bei jedem neuen Aufruf zufällig eine der beiden Varianten wählen.
+    const pages = [
+      "version-easter-egg/index.html",
+      "version-textupdate/index.html"
+    ];
+    const selected = pages[Math.floor(Math.random() * pages.length)];
+    window.location.replace(selected);
+  </script>
+</head>
+<body>
+  <noscript>
+    <p>Bitte JavaScript aktivieren, um Schwanensee zu öffnen.</p>
+  </noscript>
+</body>
+</html>
